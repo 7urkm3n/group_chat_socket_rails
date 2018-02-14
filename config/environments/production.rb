@@ -1,8 +1,6 @@
 Rails.application.configure do
-  config.action_cable.url = 'wss://dry-dawn-27979.herokuapp.com//cable'
-  config.action_cable.allowed_request_origins = [
-    'https://dry-dawn-27979.herokuapp.com/' ]
-    
+  config.action_cable.url = 'wss://dry-dawn-27979.herokuapp.com/cable'
+  config.action_cable.allowed_request_origins = ['https://dry-dawn-27979.herokuapp.com']
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
